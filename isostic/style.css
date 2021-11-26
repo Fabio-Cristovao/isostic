@@ -12,8 +12,19 @@ body {
     margin-right: auto;
 }
 
-.button {
-    width: 120px;
-    height: 50px;
-    margin-left: auto;
+.fixed-top {
+    background-color: white;
+    color: #0267FF;
+    display: flex;
+
+
+    z-index: 2;
+}
+
+.navbar-light .navbar-toggler-icon {
+    stroke: #0267FF !important;
+}
+
+.nav-link {
+    color: #0267FF !important;
 }
