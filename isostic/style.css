@@ -1,14 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Cairo', sans-serif;
+
+
+
 }
 
 
-div.head-container {
-    margin-top: 200px;
-    margin-bottom: 200px;
+.head-container {
+    background-image: url("images/pexels-sorapong-chaipanya-edit.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
+
+    font-size: 50px;
+
+}
+
+.main-title {
     font-size: 80px;
-
-
-
-
 }
+
+.header-button1 {}
