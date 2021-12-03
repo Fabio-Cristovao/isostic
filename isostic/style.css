@@ -2,12 +2,13 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 
-.nav-link {
-    color: blue !important;
-}
+
+div.head-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 80px;
 
 
-.page-header {
-    color: #003cff;
-    display: 3;
+
+
 }
