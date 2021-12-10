@@ -45,7 +45,7 @@ body {
 }
 
 .quote {
-    background-image: url("images/quote.png");
+    background-image: url("images/quote-background.png");
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
@@ -55,18 +55,37 @@ body {
     padding: 0;
 }
 
-.quote-title {
-    color: black;
+
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+
+.quote-basic {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-standard {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-premium {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-description {
+    color: white;
 
 
 }
-
-.container-quote {
-   
-}
-
-.row-quote>div {
-    
-
-}
-
