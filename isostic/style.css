@@ -51,6 +51,12 @@ body {
 }
 
 
+.quote-basic {
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
 
 h2 {
     color: white;
