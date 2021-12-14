@@ -10,6 +10,10 @@ body {
 
 }
 
+div {
+    border: solid 1px blue;
+}
+
 
 .header-container-fluid {
     background-image: url("images/pexels-sorapong-chaipanya-edit.jpg");
@@ -19,30 +23,21 @@ body {
     margin: 0;
     padding: 0;
     height: 700px;
-
-
-
-
     font-size: 50px;
 
 }
 
-.header-title {
-    font-size: 60px;
-    margin-top: 180px;
+.header-container {
+    margin-top: 10%;
+}
+
+.header-button {
+    font-size: 0.75em;
+    border-radius: 10px;
+
 
 }
 
-.header-button1 {
-    margin: 45px;
-    font-size: 40px;
-
-}
-
-.header-button2 {
-    margin-top: 45px;
-    font-size: 40px;
-}
 
 .quote {
     background-image: url("images/quote.png");
@@ -56,18 +51,16 @@ body {
 }
 
 .quote-title {
-    color:white;
+    color: white;
     font-size: 30px;
     font-weight: bold;
 }
 
-.row-quote{
-    
-}
 
 
 
-.quote-basic{
+
+.quote-basic {
     background-color: white;
     border-radius: 15px;
     margin: 10px;
@@ -75,28 +68,27 @@ body {
 
 }
 
-.quote-basic > element{
+.quote-basic>element {
     padding: 5px;
 }
 
-.quote-standard{
+.quote-standard {
     background-color: white;
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
 }
 
-.quote-premium{
+.quote-premium {
     background-color: white;
     border-radius: 15px;
     margin: 10px;
-    padding:5px;
+    padding: 5px;
 
 }
 
-.quote-description{
+.quote-description {
     color: white;
     margin: 10px;
     padding: 5px;
 }
-
