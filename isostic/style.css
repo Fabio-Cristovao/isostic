@@ -10,11 +10,6 @@ body {
 
 }
 
-div {
-    border: solid 1px blue;
-}
-
-
 .header-container-fluid {
     background-image: url("images/pexels-sorapong-chaipanya-edit.jpg");
     background-repeat: no-repeat;
