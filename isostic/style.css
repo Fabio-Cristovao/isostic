@@ -23,6 +23,7 @@ div {
     margin: 0;
     padding: 0;
     height: 700px;
+<<<<<<< HEAD
     font-size: 50px;
 
 }
@@ -35,12 +36,33 @@ div {
     font-size: 0.75em;
     border-radius: 10px;
 
+=======
+}
+
+>>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
+
+
+<<<<<<< HEAD
+=======
+.header-button {
+    font-size: 2.5rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px;
+    color: black;
+
 
 }
 
+.header-button2 {
+    margin-top: 45px;
+    font-size: 40px;
+}
+>>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
 
 .quote {
-    background-image: url("images/quote.png");
+    background-image: url("images/quote-background.png");
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
@@ -50,6 +72,7 @@ div {
     padding: 0;
 }
 
+<<<<<<< HEAD
 .quote-title {
     color: white;
     font-size: 30px;
@@ -73,12 +96,17 @@ div {
 }
 
 .quote-standard {
+=======
+
+.quote-basic {
+>>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
     background-color: white;
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
 }
 
+<<<<<<< HEAD
 .quote-premium {
     background-color: white;
     border-radius: 15px;
@@ -91,4 +119,37 @@ div {
     color: white;
     margin: 10px;
     padding: 5px;
+=======
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+
+.quote-basic {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-standard {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-premium {
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote-description {
+    color: white;
+
+
+>>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
 }
