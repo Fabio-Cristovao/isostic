@@ -23,7 +23,6 @@ div {
     margin: 0;
     padding: 0;
     height: 700px;
-<<<<<<< HEAD
     font-size: 50px;
 
 }
@@ -34,16 +33,10 @@ div {
 
 .header-button {
     font-size: 0.75em;
-    border-radius: 10px;
-
-=======
-}
-
->>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
+    border-radius: 10px;}
 
 
-<<<<<<< HEAD
-=======
+
 .header-button {
     font-size: 2.5rem;
     border: 2px solid grey;
@@ -52,15 +45,7 @@ div {
     color: black;
 }
 
-<<<<<<< HEAD
-.header-button2 {
-    margin-top: 45px;
-    font-size: 40px;
-}
->>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
-=======
 
->>>>>>> a9f559b (quote layout changes)
 
 .quote {
     background-image: url("images/quote-background.png");
@@ -73,58 +58,7 @@ div {
     padding: 0;
 }
 
-<<<<<<< HEAD
-.quote-title {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
 
-
-
-
-
-.quote-basic {
-    background-color: white;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 5px;
-
-}
-
-.quote-basic>element {
-    padding: 5px;
-}
-
-.quote-standard {
-=======
-
-<<<<<<< HEAD
-.quote-basic {
->>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
-=======
-.quote-basico {
->>>>>>> a9f559b (quote layout changes)
-    background-color: white;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 5px;
-}
-
-<<<<<<< HEAD
-.quote-premium {
-    background-color: white;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 5px;
-
-}
-
-.quote-description {
-    color: white;
-    margin: 10px;
-    padding: 5px;
-=======
 h2 {
     color: white;
     font-size: 2rem;
@@ -154,7 +88,4 @@ h2 {
 
 .quote-description {
     color: white;
-
-
->>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
 }
