@@ -1,7 +1,0 @@
-/* header style on md breakpoint*/
-/* last row on md breakpoint disappears*/
-@media (min-width: 768px) {
-    .md-disappear {
-        display: none;
-    }
-}

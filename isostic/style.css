@@ -49,17 +49,18 @@ div {
     border: 2px solid grey;
     border-radius: 10px;
     background-color: white;
-    padding: 8px;
     color: black;
-
-
 }
 
+<<<<<<< HEAD
 .header-button2 {
     margin-top: 45px;
     font-size: 40px;
 }
 >>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
+=======
+
+>>>>>>> a9f559b (quote layout changes)
 
 .quote {
     background-image: url("images/quote-background.png");
@@ -98,8 +99,12 @@ div {
 .quote-standard {
 =======
 
+<<<<<<< HEAD
 .quote-basic {
 >>>>>>> 63eed271f4f25f3c66ad8478b28cebdfb42ff9f5
+=======
+.quote-basico {
+>>>>>>> a9f559b (quote layout changes)
     background-color: white;
     border-radius: 15px;
     margin: 10px;
