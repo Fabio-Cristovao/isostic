@@ -76,55 +76,44 @@
             Comercial
           </button>
         </div>
-    </div>
-    
+      </div>
+
   </header>
 
   <!--end call to action -->
 
   <!-- start orçamentos à medida -->
 
-  <section>
-    <div class="container-fluid quote">
-      <div class="container p-2 ">
-        <div class="row">
+  <!-- forma de garantir que em sm breakpoint o card se apresenta na horizontal, mudando para a vertical a partir da lg media query-->
+
+  <section class="quote">
+    <div class="container-fluid quote z-1 ">
+      <div class="container p-3 d-flex justify-content-center align-items-center">
+        <div class="row p-3">
           <div class="col-12 col-md-3 col-lg-6">
-            <div class="row">
-                <h3>Orçamentos à sua medida</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit architecto consequatur nam, deserunt voluptas praesentium placeat voluptate soluta cum?</p>
-                <button>Peça já o seu!</button>
+            <div class="row text-white m-4">
+              <h3>Orçamentos à sua medida</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit architecto consequatur nam, deserunt
+                voluptas praesentium placeat voluptate soluta cum?</p>
+              <button>Peça já o seu!</button>
             </div>
           </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light rounded">
+          <div class="col-12 col-md-3 col-lg-2 bg-light rounded border border pt-3 align-items-center">
             <div class="row">
-              <div class="col-4 col-md-12">1</div>
-              <div class="col-8 col-md-12">1</div>
+              <div class="col-4 col-md-12">
+                <img src="images/card-circle-basico.png" class="img-fluid" width="100px" alt="">
+              </div>
+              <div class="col-8 col-md-12">
+                <h5>A partir de 850 euros!</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
+                  magni aperiam.<p>
+              </div>
             </div>
           </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light rounded">
+          <div class="col-12 col-md-3 col-lg-2 bg-light rounded border pt-3">
             <div class="row">
-              <div class="col-4 col-md-12">2</div>
-              <div class="col-8 col-md-12">2</div>
-            </div>
-          </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light rounded">
-            <div class="row">
-              <div class="col-4 col-md-12">3</div>
-              <div class="col-8 col-md-12">3</div>
-            </div>
-          </div>
-        </div>
-    </div>
-</section>
-
-
-          <!-- forma de garantir que em sm breakpoint o card se apresenta na horizontal, mudando para a vertical a partir da lg media query-->
-
-          <!--
-            <div class="col-md-3 col-lg-2">
-            <div class="row">
-              <div class="col-4 col-lg-12">
-                <img src="images/card-circle-basico.png" class="img-fluid" alt="">
+              <div class="col-4 col-md-12">
+                <img src="images/card-title-standard.png" class="img-fluid" width="100px" alt="">
               </div>
               <div class="col-8 col-md-12">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
@@ -132,51 +121,97 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-lg-2">
-            <div class="row">
-              <div class="col-4 col-lg-12">
-                <img src="images/card-title-standard.png" class="img-fluid" alt="">
-              </div>
-              <div class="col-8 col-md-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repudiandae molestiae aliquam modi
-                  itaque deleniti?</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-12 col-md-3 col-lg-2 bg-light border rounded pt-3">
             <div class="row">
               <div class="col-4 col-md-12">
-                <img src="images/card-title-premium.png" class="img-fluid" alt="">
+                <img src="images/card-title-premium.png" class="img-fluid" width="100px" alt="">
               </div>
               <div class="col-8 col-md-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque a modi hic nostrum ab error.</p>
+                </p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
+                magni aperiam.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-lg-6">
-            <h4>Orçamentos à sua medida</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe itaque corrupti assumenda expedita debitis
-              porro impedit quo velit beatae. Dolore similique ducimus ex reprehenderit expedita soluta, architecto
-              distinctio consequuntur? Veniam.</p>
-            <button>Peça já o seu orçamento!</button>
+        </div>
+      </div>
+  </section>
+  <section class="metodo">
+    <div class="container-fluid metodo z-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <i class="fa-solid fa-brush"></i>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
+  </section>
 
 
 
