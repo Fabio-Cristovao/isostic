@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <!-- fontawesome icons -->
+
+  <script src="https://kit.fontawesome.com/9ce22f6524.js" crossorigin="anonymous"></script>
+
   <!--custom css -->
 
   <link rel="stylesheet" href="style.css">
@@ -65,7 +69,7 @@
     <div class="container header-container">
       <div class="row text-center">
         <div class="col-sm-12 col-md-8 col-lg-6 text-center p-3 justify-content-center">
-          <h1 class="header-title mx-2 mb-5 mt-3 display-3">O que precisa de ver pintado?
+          <h1 class="header-title mx-2 mb-5 mt-3 display-4">O que precisa de ver pintado?
           </h1>
           <button class="header-button my-5 p-2 d-block mx-auto">
             <img src="icon/paintbrush.png" width="30px" alt="">
@@ -86,146 +90,122 @@
 
   <!-- forma de garantir que em sm breakpoint o card se apresenta na horizontal, mudando para a vertical a partir da lg media query-->
 
-  <section class="quote">
-    <div class="container-fluid quote">
-      <div class="container p-3 d-flex justify-content-center align-items-center">
-        <div class="row p-3 d-flex justify-content-center align-items-center">
-          <div class="col-12 col-md-3 col-lg-6">
-            <div class="row text-white m-4">
-              <h3>Orçamentos à sua medida</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit architecto consequatur nam, deserunt
-                voluptas praesentium placeat voluptate soluta cum?</p>
-              <button>Peça já o seu!</button>
+
+  <section class="container-fluid quote">
+    <div class="container p-3 align-items-center">
+      <div class="row p-3 d-flex justify-content-center text-center">
+        <div class="col-12 col-lg-6">
+          <div class="row text-white m-4 justify-content-center h-100">
+            <h2>Orçamentos à sua medida</h2>
+            <p class="quote-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit architecto
+              consequatur nam, deserunt
+              voluptas praesentium placeat voluptate soluta cum?</p>
+            <button class="quote-button mb-5 p-2">Peça já o seu!</button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 bg-light rounded border border pt-3 h-100">
+          <div class="row">
+            <div class="col-4 col-md-4 col-lg-12">
+              <img src="images/card-circle-basico.png" class="img-fluid" width="100px" alt="">
+            </div>
+            <div class="col-8 col-md-8 col-lg-12">
+              <h5>A partir de 850 euros!</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<p>
             </div>
           </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light rounded border border pt-3 align-items-center">
-            <div class="row">
-              <div class="col-4 col-md-12">
-                <img src="images/card-circle-basico.png" class="img-fluid" width="100px" alt="">
-              </div>
-              <div class="col-8 col-md-12">
-                <h5>A partir de 850 euros!</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
-                  magni aperiam.<p>
-              </div>
+        </div>
+        <div class="col-12 col-lg-2 bg-light rounded border pt-3 h-100">
+          <div class="row">
+            <div class="col-4 col-md-4 col-lg-12">
+              <img src="images/card-title-standard.png" class="img-fluid" width="100px" alt="">
+            </div>
+            <div class="col-8 col-md-8 col-lg-12">
+              <h5>A partir de 1000 euros!</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light rounded border pt-3">
-            <div class="row">
-              <div class="col-4 col-md-12">
-                <img src="images/card-title-standard.png" class="img-fluid" width="100px" alt="">
-              </div>
-              <div class="col-8 col-md-12">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
-                  magni aperiam.</p>
-              </div>
+        </div>
+        <div class="col-12 col-lg-2 bg-light rounded border border pt-3 h-100">
+          <div class="row">
+            <div class="col-4 col-md-4 col-lg-12">
+              <img src="images/card-title-premium.png" class="img-fluid" width="100px" alt="">
             </div>
-          </div>
-          <div class="col-12 col-md-3 col-lg-2 bg-light border rounded pt-3">
-            <div class="row">
-              <div class="col-4 col-md-12">
-                <img src="images/card-title-premium.png" class="img-fluid" width="100px" alt="">
-              </div>
-              <div class="col-8 col-md-12">
-                </p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis distinctio omnis quos, autem
-                magni aperiam.</p>
-              </div>
+            <div class="col-8 col-md-8 col-lg-12">
+              <h5>A partir de 1250 euros!</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<p>
             </div>
           </div>
         </div>
       </div>
   </section>
+
 
   <!-- end section orçamentos à medida-->
 
   <!-- start secction o nosso metodo-->
 
 
-  <section class="metodo">
-    <div class="container-fluid metodo">
-      <div class="container">
-        <div class="row metodo-row">
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <i class="fa-solid fa-brush"></i>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
+  <section class="container-fluid container-metodo">
+    <div class="container metodo-text text-white">
+      <h3>O que esperar de nós até ao fim do projeto?</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur temporibus sapiente reiciendis totam ad neque quia ullam eveniet molestias?</p>
+    </div>
+    <div class="container">
+      <div class="row metodo-row">
+        <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+          <div class="card h-100">
+            <h5 class="card-header card-header-meet-color text-white">
+              1- Meet
+              <i class="far fa-handshake"></i>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">First, get in touch with one of our friendly account managers to schedule a meeting</p>
             </div>
           </div>
         </div>
-        <div class="row text-center mt-4 mb-0 p-3 text-white">
-          <div class="col">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ipsam eaque laudantium laboriosam quisquam rerum at optio voluptatum tempora sequi deserunt veniam dolore labore tenetur maiores officiis necessitatibus, nemo recusandae!</p>
-            <button>Entre em contacto connosco!</button>
+        <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+          <div class="card h-100">
+            <h5 class="card-header card-header-tier-color text-white">
+              2- Choose your tier
+              <i class="fas fa-cubes"></i>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">Second, please choose one of our tiers that suits you the</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+          <div class="card h-100">
+            <h5 class="card-header card-header-when-color text-white">
+              3- Choose when
+              <i class="far fa-calendar-alt"></i>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">Third, schedule with our teams the best time for you</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+          <div class="card mb-3 h-100">
+            <h5 class="card-header card-header-relax-color text-white">
+              3- Relax
+              <i class="fas fa-umbrella-beach"></i>
+            </h5>
+            <div class="card-body">
+              <p class="card-text">Lastly, you just need to relax, as our team get the job done</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
+    </div>
   </section>
+ 
 
-  <!-- end secction o nosso metodo-->
+
+ 
+
+  <!-- end secction o nosso metodo -->
 
   <!-- start section os nossos serviços -->
 
@@ -238,7 +218,8 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
               <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a>
             </div>
@@ -249,7 +230,8 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
               <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a>
             </div>
@@ -262,7 +244,8 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
               <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a>
             </div>
@@ -273,7 +256,8 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
               <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a>
             </div>
@@ -282,13 +266,76 @@
       </div>
     </div>
   </section>
-   <!-- end section os nossos serviços-->
+  <!-- end section os nossos serviços -->
 
-   <!--start secction why us --> 
+  <!--start secction why us -->
 
-   <div class="container">
-     
-   </div>
+  <section class="why-us">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section why us -->
+
+  <!--start section what are our customers saying -->
+
+  <section class="container">
+    <h3>O que dizem os nossos clientes:</h3>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <button>Get started!</button>
+  </section>
+
+  <!-- end section what are our customers saying -->
+
+  <!-- start section simulator -->
+  <section class="simulator">
+    <h3>Escolha um modelo de casa pré-definido e experimente cores!</h3>
+    <button></button>
+    <img src="images/house-sample.jpg" class="img-fluid" alt="">
+  </section>
+
+  <!--end section simulator -->
+
+  <!-- start section footer -->
+
+  <footer>
+
+  </footer>
+
+
+
+
+
 
 
 
@@ -297,6 +344,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+
+
 
 </body>
 
