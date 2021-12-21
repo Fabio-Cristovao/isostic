@@ -28,9 +28,14 @@
 </head>
 
 <body>
+
+  <button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
   <div class="container-fluid">
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="topOfThePage">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/Isosticlogo-final.svg" alt="isostic logo" width="150px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,19 +45,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Orçamentos</a>
+              <a class="nav-link" href="#quotes">Orçamentos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quem somos?</a>
+              <a class="nav-link" href="#method">O nosso método</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Onde estamos?</a>
+              <a class="nav-link" href="#services">Os nossos serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Porquê nós?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Simulador</a>
+              <a class="nav-link" href="#whyUs">Porquê nós?</a>
             </li>
           </ul>
         </div>
@@ -63,7 +65,7 @@
 
   <!--navbar end -->
 
-  <!-- start call to action 1-->
+  <!-- start call to action -->
 
   <header class="header-container-fluid">
     <div class="container header-container">
@@ -71,14 +73,24 @@
         <div class="col-sm-12 col-md-8 col-lg-6 text-center p-3 justify-content-center">
           <h1 class="header-title mx-2 mb-5 mt-3 display-4">O que precisa de ver pintado?
           </h1>
-          <button class="header-button my-5 p-2 d-block mx-auto">
-            <img src="icon/paintbrush.png" width="30px" alt="">
-            Doméstico
-          </button>
-          <button class="header-button my-5 p-2 d-block mx-auto">
-            <img src="icon/paint-roller.png" width="30px" alt="">
-            Comercial
-          </button>
+          <a href="/contacts.html" class="contactLink">
+            <button class="header-button my-5 p-2 d-block mx-auto">
+              <img src="icon/paintbrush.png" width="30px" alt="">
+              Doméstico
+            </button>
+          </a>
+          <a href="/contacts.html" class="contactLink">
+            
+              <a href="/contacts.html" class="contactLink">
+                <button class="header-button my-5 p-2 d-block mx-auto" >
+                  <img src="icon/paint-roller.png" width="30px" alt="">
+                  Comercial
+                </button>
+                </button>
+              </a>
+             
+          </a>
+          
         </div>
       </div>
 
@@ -96,11 +108,14 @@
       <div class="row p-3 d-flex justify-content-center text-center">
         <div class="col-12 col-lg-6">
           <div class="row text-white m-4 justify-content-center h-100">
-            <h2>Orçamentos à sua medida</h2>
+            <h2 id="quotes">Orçamentos à sua medida</h2>
             <p class="quote-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit architecto
               consequatur nam, deserunt
               voluptas praesentium placeat voluptate soluta cum?</p>
-            <button class="quote-button mb-5 p-2">Peça já o seu!</button>
+            <a href="/contacts.html">
+              <button class="quote-button mb-5 p-2">Peça já o seu!</button>
+            </a>
+            
           </div>
         </div>
         <div class="col-12 col-lg-2 bg-light rounded border border pt-3 h-100">
@@ -147,7 +162,7 @@
 
   <section class="container-fluid container-metodo">
     <div class="container metodo-text text-white">
-      <h3>O que esperar de nós até ao fim do projeto?</h3>
+      <h3 id="method">O que esperar de nós até ao fim do projeto?</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur temporibus sapiente reiciendis
         totam ad neque quia ullam eveniet molestias?</p>
     </div>
@@ -156,11 +171,11 @@
         <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
           <div class="card h-100">
             <h5 class="card-header card-header-meet-color text-white">
-              1- Meet
-              
+              1- O encontro
+
             </h5>
             <div class="card-body">
-              <p class="card-text">First, get in touch with one of our friendly account managers to schedule a meeting
+              <p class="card-text">Primeiro, entra em contacto com um dos nossos simpáticos gestores de projeto.
               </p>
             </div>
           </div>
@@ -168,33 +183,33 @@
         <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
           <div class="card h-100">
             <h5 class="card-header card-header-tier-color text-white">
-              2- Choose your tier
+              2- Escolha do orçamento
               <i class="fas fa-cubes"></i>
             </h5>
             <div class="card-body">
-              <p class="card-text">Second, please choose one of our tiers that suits you the</p>
+              <p class="card-text">Em segundo lugar, escolha o orçamento que mais se adequa às suas necessidades.</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
           <div class="card h-100">
             <h5 class="card-header card-header-when-color text-white">
-              3- Choose when
+              3- Escolha da data
               <i class="far fa-calendar-alt"></i>
             </h5>
             <div class="card-body">
-              <p class="card-text">Third, schedule with our teams the best time for you</p>
+              <p class="card-text">Depois, marque a data que mais o satisfaz.</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
           <div class="card mb-3 h-100">
             <h5 class="card-header card-header-relax-color text-white">
-              3- Relax
+              4- Relaxe
               <i class="fas fa-umbrella-beach"></i>
             </h5>
             <div class="card-body">
-              <p class="card-text">Lastly, you just need to relax, as our team get the job done</p>
+              <p class="card-text">Por último, apenas precisa de relaxar enquanto o seu projecto se concretiza</p>
             </div>
           </div>
         </div>
@@ -214,7 +229,7 @@
 
 
   <section class="container">
-    <h3 class="text-center my-5 display-5">Os nossos serviços</h3>
+    <h3 class="text-center my-5 display-5" id="services">Os nossos serviços</h3>
     <div class="container my-5">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
         <div class="col-sm-12 col-md-6 col-lg-3 border-2 rounded m-2 card mx-auto">
@@ -226,7 +241,7 @@
             <div class="col-9 services-text-1">
               <div class="row">
                 <div class="col">
-                  <h5 class="card-title">Residential Painting</h5>
+                  <h5 class="card-title">Pintura Doméstica</h5>
                 </div>
               </div>
               <div class="row">
@@ -247,7 +262,7 @@
             <div class="col-9 services-text-2">
               <div class="row">
                 <div class="col">
-                  <h5 class="card-title">Commercial Painting</h5>
+                  <h5 class="card-title">Pintura Comercial</h5>
                 </div>
               </div>
               <div class="row">
@@ -268,7 +283,8 @@
             <div class="col-9 services-text-3">
               <div class="row">
                 <div class="col">
-                  <h5 class="card-title">Insurance and restoration</h5>
+                  <h5 class="card-title">Seguro de restauração
+                  </h5>
                 </div>
               </div>
               <div class="row">
@@ -289,7 +305,7 @@
             <div class="col-9 services-text-4">
               <div class="row">
                 <div class="col">
-                  <h5 class="card-title">Property management</h5>
+                  <h5 class="card-title">Gestão de propriedade</h5>
                 </div>
               </div>
               <div class="row">
@@ -306,69 +322,63 @@
 
     <!-- end section our services-->
 
-  
+
     <!--start secction why us -->
 
     <section class="container why-us">
-      <div class="card">
+      <h2 class="display-3 my-5" id="whyUs">Porquê nós?</h2>
+      <img src="images/Isosticlogo.svg" width="30%" alt="isostic logo"
+        class="img-fluid why-us-image rounded mx-auto d-block">
+      <div class="card why-us-card my-5">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <h4 class="card-title-why-us">
+            <i class="fas fa-project-diagram"></i>
+            Processos sistemáticos</h4>
+          <p class="card-text">
+            Com a sistematização dos nossos processos conduzida pela mais recente tecnologia, conseguimos oferecer aos nossos clientes a melhor experiência do mercado.
+          </p>
+          <h5 class="card-title-why-us">
+            <i class="fas fa-layer-group"></i>
+            Orçamentos adequados a si</h5>
+
+          <p class="card-text">
+
+            Mentes abertas mantêm a nossa equipa focada na produtividade, conseguindo manter-nos sempre a par dos avanços tecnológicos, posicionando-se na vanguarda das soluções de mercado.
+            </p>
+          <h5 class="card-title-why-us">
+            <i class="fas fa-tachometer-alt"></i>
+            Optimização
+          </h5>
+          <p class="card-text">
+
+            A Isostic elimina a necessidade de obter vários orçamentos provenientes de diferentes fábricas, o seu fabrico próprio possibilita que o seu orçamento seja calculado no próprio dia, evitando esperas indesejadas.
+          
+            </p>
+
         </div>
       </div>
     </section>
 
     <!-- end section why us -->
 
-    <!--start section what are our customers saying -->
 
-    <section class="container">
-      <h3>O que dizem os nossos clientes:</h3>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <button>Get started!</button>
-    </section>
 
-    <!-- end section what are our customers saying -->
-
-    <!-- start section simulator -->
-    <section class="simulator">
-      <h3>Escolha um modelo de casa pré-definido e experimente cores!</h3>
-      <button></button>
-      <img src="images/house-sample.jpg" class="img-fluid" alt="">
-    </section>
-
-    <!--end section simulator -->
 
     <!-- start section footer -->
 
-    <footer>
-
+    <footer class="container">
+      <span class="social-media d-flex justify-content-start">
+        <p class="justify-content-around">2021 Isostic. All rights reserved</p>
+      </span>
+      <span class="d-flex justify-content-center">
+        <a href="https://www.pinterest.pt/" target="blank"><i class="fab fa-pinterest"></i></a>
+        <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="/contacts.html">Contactos</a>
+      </span>
+      <span class="d-flex justify-content-end">
+        <span><img src="images/Isosticlogo-final.svg" width="150px" alt=""></span>
+      </span>
     </footer>
 
 
@@ -384,7 +394,32 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <script>
+      let mybutton = document.getElementById("btn-back-to-top");
 
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
 </body>
 

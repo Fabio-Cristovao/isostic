@@ -9,8 +9,12 @@ body {
 
 }
 
-
-
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
 
 
 .header-container-fluid {
@@ -26,19 +30,19 @@ body {
 }
 
 
-
-
-
-
 .header-button {
     font-size: 2rem;
     border: 2px solid grey;
     border-radius: 10px;
     background-color: white;
     color: black;
+
 }
 
+.contactLink {
 
+    text-decoration: none;
+}
 
 .quote {
     background-image: url("images/quote-definitive.png");
@@ -124,10 +128,6 @@ body {
     }
 }
 
-
-
-
-
 .metodo-text {
 
     padding-top: 10rem;
@@ -136,7 +136,6 @@ body {
 .container-cards {
 
     padding-top: 4rem;
-
 
 }
 
@@ -162,46 +161,110 @@ body {
     background-color: rgb(255, 217, 1)
 }
 
-.services-icon-1{
+.services-icon-1 {
 
     font-size: 2.5rem;
     color: orange;
     margin: 0;
 }
 
-.services-text-1{
+.services-text-1 {
 
     font-size: 1rem;
 }
 
-.services-icon-2{
+.services-icon-2 {
 
     font-size: 2.5rem;
-    color: rgba(8, 8, 194, 0.842); ;
+    color: rgba(8, 8, 194, 0.842);
+    ;
 }
 
-.services-text-2{
+.services-text-2 {
 
     font-size: 1rem;
 }
 
-.services-icon-3{
+.services-icon-3 {
 
     font-size: 2.5rem;
     color: rgb(13, 114, 230);
 }
 
-.services-text-3{
+.services-text-3 {
 
     font-size: 1rem;
 }
 
-.services-icon-4{
+.services-icon-4 {
     font-size: 2.5rem;
     color: rgb(165, 165, 8);
 }
 
-.services-text-4{
+.services-text-4 {
 
     font-size: 1rem;
+}
+
+.card-title-why-us {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.why-us-image {
+
+    border-top: 4px solid rgba(24, 57, 243, 0.808);
+    border-left: 4px solid rgba(24, 57, 243, 0.808);
+    border-right: 4px solid rgba(24, 57, 243, 0.808);
+    border-bottom: 4px solid blue;
+    position: relative;
+    margin-right: 50%;
+    margin-left: 50%;
+    z-index: 50;
+}
+
+.why-us-card {
+
+    border: 4px solid rgba(24, 57, 243, 0.808)
+}
+
+/* css da pagina contacts */
+
+ul,
+li {
+    list-style: none;
+}
+
+.footer-text {
+
+    color: rgb(13, 114, 230)
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1248dd;
+    color: white;
 }

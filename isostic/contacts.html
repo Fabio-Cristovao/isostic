@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9ce22f6524.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html"><img src="images/Isosticlogo-final.svg" alt="isostic logo"
+                            width="150px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Orçamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">O nosso método</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Os nossos serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Porquê nós?</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="container contacts">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 contacts d-flex justify-content-start align-items-center ">
+                    <h2>Contactos:</h2>
+                </div>
+            </div>
+        </section>
+        <section class="container form">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+
+                        <table id="customers">
+                            <tr>
+                              <th></th>
+                              <th>Loja 1</th>
+                              <th>Loja 2</th>
+                            </tr>
+                            <tr>
+                              <td>
+                                <i class="fas fa-home"></i>
+                                  Morada:
+                              </td>
+                              <td>Rua Júlio Conceição Ivo nº15-A
+                                2640-499 Mafra </td>
+                              <td>Estrada de Mem Martins nº 73-A 2725-385 Mem Martins</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <i class="fas fa-tty"></i>
+                                Telefone:
+                              </td>
+                              <td>261 814 094</td>
+                              <td>219 201 298</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <i class="fas fa-phone"></i> 
+                                Telemóvel
+                            </td>
+                              <td>965 749 996</td>
+                              <td>966 716 456</td>
+                              
+                            </tr>
+                            
+                            
+                          </table>
+                        <!--<table class="contacts">
+                            <colgroup span="3" class="columns"></colgroup>
+                            <tr>
+                                <th></th>
+                                <th>Loja 1</th>
+                                <th>Loja 2</th>
+    
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-home"></i>Morada</td>
+                                <td></td>
+                                <td></td>
+    
+                            </tr>
+                            <tr>
+                                <td>
+                                <td>261 814 094</td>
+                                <td>219 201 298</td>
+                            </tr>
+                            <tr>
+                                <td>Telemóvel</td>
+                                <td>965 749 996 / 966 716 456</td>
+                            </tr>
+    
+                        </table>-->
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="my-5">Website:
+                                <a href="http://www.ncs-cores.com/" target="_blank">NCS-Cores</a>
+                            </h4>
+                            <h4>A Fábrica</h4>
+                            <p><span>Morada</span> Polo empresarial da Sapataria rua H-8 2590-418 Sobral de Monte Agraço</p>
+                            <p> <span>E-mail:</span> geral@isostic.pt</p>
+                            <p><span>Telefone:</span> 219 750 351</p>
+                        </div>
+                       
+                        
+
+                    
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form class="p-2 bg-light rounded border-0">
+
+                        <h4 class="text-center mb-4">Formulário de contacto:</h4>
+                        <div class="mb-3">
+    
+                            <input class="form-control" id="exampleFormControlInput1" placeholder="O seu nome:">
+                        </div>
+                        <div class="mb-3">
+    
+                            <input class="form-control" id="exampleFormControlInput1" placeholder="O seu apelido:">
+                        </div>
+                        <label for="assunto">Por favor, indique-nos o assunto:</label>
+                        <select class="form-select mb-3" aria-label="Default select example">
+                            <option value="1">Venda de produtos</option>
+                            <option value="2">Agendamento</option>
+                            <option value="3">Questões técnicas</option>
+                            <option value="3">Outro assunto</option>
+                        </select>
+    
+                        <div class="mb-3">
+    
+                            <input class="form-control" id="exampleFormControlInput1" placeholder="O seu e-mail:">
+                        </div>
+    
+                        <div class="mb-3">
+    
+                            <input class="form-control" id="exampleFormControlInput1"
+                                placeholder="O seu contacto telefónico (opcional)">
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">A sua mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+    
+                        <button type="button" class="btn btn-light d-flex ml-auto">Enviar</button>
+    
+    
+    
+                    </form>
+                </div>
+            </div>
+            
+                   
+                
+
+                
+
+
+                    
+
+               
+            </div>
+    </div>
+
+    <footer class="container bg-light">
+        <span class="social-media d-flex justify-content-start">
+            <p class="justify-content-around footer-text">2021 Isostic. All rights reserved</p>
+        </span>
+        <span class="d-flex justify-content-center">
+            <a href="https://www.pinterest.pt/" target="blank"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+            
+        </span>
+        <span class="d-flex justify-content-end">
+            <span><a href="/index.html"><img src="images/Isosticlogo-final.svg" width="150px" alt=""></a></span>
+        </span>
+    </footer>
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
